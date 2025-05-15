@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Delius&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --cor-principal: #1b5c07;
+    --cor-secundaria: #0b9959;
+     --cor-destaque: #7c5403;
+}
+
+body {
+    font-family: "Delius", cursive;
+    color: var(--cor-principal);
+    background-color: #edccac;
+  }
+  
+  h1, h2,h4, h5,h6{
+    color: var(--cor-principal);
+    font-weight: 600;
+  }
+  
+  .lead, .btn-link {
+    color: var(--cor-destaque);
+    
+  }
+  
+  a, .btn-link:hover {
+    color: var(--cor-destaque);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--cor-principal);
+  }
+  
