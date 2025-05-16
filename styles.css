@@ -5,10 +5,22 @@
      --cor-destaque: #7c5403;
 }
 
+.faixa-teto {
+  /*background-color: #2E5E75; */
+  background-image: url('img/horta-comunitaria.webp') ;
+  color: white;
+  padding: 90px 70px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+
+
+  
+}
 body {
     font-family: "Delius", cursive;
     color: var(--cor-principal);
-    background-color: #edccac;
+    background-color: #E8D3A4  ;
   }
   
   h1, h2,h4, h5,h6{
