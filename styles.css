@@ -1,40 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Delius&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
     --cor-principal: #1b5c07;
-    --cor-secundaria: #0b9959;
+    --cor-secundaria: #078569;
      --cor-destaque: #7c5403;
 }
 
-.faixa-teto {
-  /*background-color: #2E5E75; */
-  background-image: url('img/horta-comunitaria.webp') ;
+.faixa-teto{
   color: white;
-  padding: 90px 70px;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-
-
-  
+  text-align: center ;
+   max-height: 345px;
+  background-color: #078569;
+  border-radius: 5px;
+  margin: 0.5rem;
 }
+
 body {
     font-family: "Delius", cursive;
     color: var(--cor-principal);
     background-color: #E8D3A4  ;
   }
   
-  h1, h2,h4, h5,h6{
-    color: var(--cor-principal);
+  h1{
+    color: var(--cor-destaque);
+    font-weight: 600;
+  }
+  h2,h4{
+    color: var(--cor-secundaria);
     font-weight: 600;
   }
   
-  .lead, .btn-link {
-    color: var(--cor-destaque);
-    
-  }
   
   a, .btn-link:hover {
-    color: var(--cor-destaque);
+    color: var(--cor-secundaria);
     text-decoration: none;
   }
   
