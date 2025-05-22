@@ -13,23 +13,23 @@
     <link rel="stylesheet" href="styles.css">
     <title>Do campo a Cidade</title>
 </head>
-<body>
-  <p class="py-1"></p>
-  <div class="container text-left ">
+<header> 
+  <div class="container text-start">
+
    <h1 class="lead fs-3"><strong>Festejando a conexão campo-cidade</h1></strong></div>
-   <section class="faixa-teto">
- <div class="py-1"><img src="img/campo-cidade.jpg " class="rounded-circle"></div>
-      </section>
-      
-<p class="text-start py-3 px-5 fs-5 text-black">A poluição do solo e do ar nas cidades tem causado danos, como erosões e a perda de biomas. A maior parte da poluição é resultado de ações humanas, que  comprometem a saúde dos seres vivos e o equilíbrio da natureza. Diante desse problema, é imprescindível a busca por  soluções sustentáveis para este mal ambiente. Uma alternativa é a criação de hortas comunitárias, espaços urbanos cultivados por voluntários com o objetivo de produzir alimentos saudáveis, recuperar áreas degradadas e promover a preservação ambiental.</p>
-<div class="px-5">
-<div class="container text-center">
-      <h1 class=" lead fs-3 py-2"><strong> Benefícios das Hortas comunitarias</strong></h1> 
-<p class="badge rounded text-bg-success bg-opacity-30 p-2 f-4 text-black"><strong class="fs-5 "> ☁ </strong> Melhora a qualidade do ar. </p>
-        <p class="badge rounded text-bg-success bg-opacity-30 p-2 f-4 text-black"> <strong class="fs-5"> ♻️ </strong>Redução do lixo orgânico</p>
-        <p class="badge rounded text-bg-success bg-opacity-30 p-2 f-4 text-black"> <strong class="fs-5">🍍🍎🍓🍇</strong> Alimento fresco e local.</p> 
-      <p class="badge rounded text-bg-success bg-opacity-30 p-2 f-4 text-black"><strong class="fs-5">👨👩</strong>  Convivência e educação ambiental.</p>
-       </div>
+  
+ <div class="py-1"></div></header>
+<nav>
+    <a href="#sobre">Projeto</a>
+    <a href="#beneficios">Benefícios</a>
+    <a href="#referencias">Referências</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+<body>
+   <section id="sobre">
+    <h2>O projeto</h2>
+    <p>A poluição do solo e do ar nas cidades tem causado danos, como erosões e a perda de biomas. A maior parte da poluição é resultado de ações humanas, que  comprometem a saúde dos seres vivos e o equilíbrio da natureza. Diante desse problema, é imprescindível a busca por  soluções sustentáveis para este mal ambiente. Uma alternativa é a criação de hortas comunitárias, espaços urbanos cultivados por voluntários com o objetivo de produzir alimentos saudáveis, recuperar áreas degradadas e promover a preservação ambiental.</p>
   
 <main class="container mt-4"> 
  
@@ -42,7 +42,7 @@
         <img src="img/Antes.jpg" class="card-img-top "alt=""style="max-width: 14rem;"style="max-height: 1rem;">
 <a href="https://youtu.be/VNzrDa3aZ5A?si=Dt1axh8F3IU2ArXa"  class="fs-5">A poluição e seus impactos</a>     </div> </div> </div>
  
-<div class="col-md-3 py-5 fs-6">
+<div class="col-md-2 py-5 fs-6">
         <img src="img/horta-comunitaria.webp" class="rounded "alt=""style="max-width: 16rem;"style="max-height: 14rem;"> </div>
 
     <!-- cartao 2 -->
@@ -53,12 +53,20 @@
         <img src="img/Depos.jpg" class="card-img-top "alt=""style="max-width: 14rem;"style="max-height: 1rem;">
 <a href=" https://youtu.be/cZCkS8tfO7c?si=r3_xsrL11uZinlVv" class="fs-4">As hortas e suas contribuições</a>      </div> </div> </div>
 
+  </section>
 
-<!-- rodapé -->
-<footer class="container  py-5">
-   <!-- Button trigger modal -->
-  
-        <button type="button"class="btn btn-dark  btn-opacity-50  btn-rounded-pill" data-bs-toggle="modal" data-bs-target="#modal1">
+  <section id="beneficios">
+    <h2>Benefícios das Hortas Comunitárias</h2>
+    <div class="beneficios">
+      <div class="container text-center">
+<p class="badge rounded text-bg-success bg-opacity-30 py-2 text-black "><strong class="fs-5 "> ☁ </strong> Melhora a qualidade do ar. </p>
+        <p class="badge rounded text-bg-success bg-opacity-30 p-2 f-4 text-black"> <strong class="fs-5"> ♻️ </strong>Redução do lixo orgânico</p>
+        <p class="badge rounded text-bg-success bg-opacity-30 p-2 f-4 text-black"> <strong class="fs-5">🍍🍎🍓🍇</strong> Alimento fresco e local.</p> 
+      <p class="badge rounded text-bg-success bg-opacity-30 p-2 f-4 text-black"><strong class="fs-5">👨👩</strong>  Convivência e educação ambiental.</p>
+       </div>
+       <section id="referencias">
+    <h2>Referências</h2>
+    <button type="button"class="btn btn-dark  btn-opacity-50  btn-rounded-pill" data-bs-toggle="modal" data-bs-target="#modal1">
 Referências bibliográficas</button>
     
 
@@ -80,14 +88,16 @@ Referências bibliográficas</button>
                     <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">fechar</button>
                   </div></div></div></div>
                 </div> </div>
-                
-  <h2 class=" fs-4">Entre em contato</h2> 
- 
-  <div> <i class="bi bi-github"><a href="https://github.com/Wiltania">Github</a></i><!--coloquei em formato de lista --> </div>
+  </section>
+
+  <section id="contato">
+    <h2>Entre em contato</h2>
+    <p> <div> <i class="bi bi-github"><a href="https://github.com/Wiltania">Github</a></i><!--coloquei em formato de lista --> </div>
   <div> <i class="bi bi-envelope-at"></i><A:mail> wiltania.pierre-louis@escola.pr.gov.br</A:mail><!--coloquei em formato de lista --> </div>
 
   <h4 class="my-5 text-center fs-6"> Por Wiltania Pierre-Louis. 2025</h4>
-
-  </footer>
+</p>
+  </section>
+ 
 </body>
 </html>

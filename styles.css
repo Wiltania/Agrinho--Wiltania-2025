@@ -4,7 +4,7 @@
     --cor-secundaria: #078569;
      --cor-destaque: #7c5403;
 }
-
+/*
 .faixa-teto{
   color: white;
   text-align: center ;
@@ -12,7 +12,7 @@
   background-color: #078569;
   border-radius: 5px;
   margin: 0.5rem;
-}
+}/*
 
 body {
     font-family: "Delius", cursive;
@@ -37,5 +37,43 @@ body {
   
   a:hover {
     color: var(--cor-principal);
-  }
-  
+  }*/
+  body{
+   font-family: Arial, sans-serif;
+      margin: 0;
+     
+      background-color:  #e8d3a4c0 ;
+    }
+    
+    header {
+      
+      /*background-color:#078569;*/
+      background-image: url(img/campo-cidade.jpg);
+      background-size:cover;
+      padding: 4rem;
+    
+     color: #ffffff;
+      padding: 1rem;
+      text-align: start;
+    }
+    h2{
+      color:#d67b2c;
+      font-family: "Delius", cursive;
+    }
+    nav {
+      background-color:  #6d9666 ;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.5rem;
+    }
+    nav a {
+      color:  #8b492a;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 600px;
+      margin: auto;
+    }
