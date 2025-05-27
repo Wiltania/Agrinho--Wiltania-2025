@@ -10,7 +10,17 @@ body {
     color: var(--cor-principal);
     background-color: #E8D3A4  ;
   }
-  
+  .container {
+      width: 100%;
+        padding: 1rem;
+        }
+        .flex-container {
+            display: flex;
+              flex-wrap: wrap;
+                justify-content: space-between;
+                }
+          
+        
   h1{
     color: var(--cor-destaque);
     font-weight: 800;
@@ -67,4 +77,18 @@ body {
       max-width: 600px;
       margin: auto;
     }
-    
+    @media (max-width: 768px) {
+        .menu {
+            flex-direction: column;
+              }
+
+                .container {
+                    padding: 0.5rem;
+                      }
+                      }
+img, video {
+    max-width: 100%;
+      height: auto;
+      }
+
+  
