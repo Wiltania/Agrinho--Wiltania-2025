@@ -34,9 +34,7 @@ body {
       
       background-color:#078569;
       background-size:cover;
-      padding: 3rem;
-     color: #ffffff;
-     padding: 0rem;
+      padding: 2rem;
       text-align: start;
     }
     h2, h3{
@@ -77,6 +75,6 @@ body {
     max-width: 900px;
   width: 100%;
   padding:1rem;
-
+  
     } }
 
