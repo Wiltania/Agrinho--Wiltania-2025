@@ -10,35 +10,22 @@ body {
     color: var(--cor-principal);
     background-color: #E8D3A4  ;
   }
-  .container {
-      width: 100%;
-        padding: 1rem;
-        }
-        .flex-container {
+  
+   .flex-container {
             display: flex;
               flex-wrap: wrap;
                 justify-content: space-between;
-                }
-          
-        
+              }
   h1{
     color: var(--cor-destaque);
     font-weight: 800;
     padding: 0;
     margin-top: 1.5rem;
   }
-  /*h2{
-    color: var(--cor-secundaria);
-    font-weight: 600;
-   text-align:start ;
-  }*/
-  
-  
   a, .btn-link:hover{
     color: var(--cor-secundaria);
     text-decoration: none;
   }
-  
   a:hover {
     color: var(--cor-principal);
   }
@@ -46,17 +33,21 @@ body {
     header {
       
       background-color:#078569;
-      /*background-image: url(img/campo-cidade.jpg);*/
       background-size:cover;
       padding: 3rem;
      color: #ffffff;
      padding: 0rem;
       text-align: start;
     }
-    h2{
+    h2, h3{
       color:#d67b2c;
       font-family: "Delius", cursive;
-      text-align:start ;
+      text-align:center;
+      font-weight: 500px;
+    }
+     h5{
+      color:#d67b2c;
+      text-align:center;
       font-weight: 500px;
     }
     nav {
@@ -75,20 +66,17 @@ body {
     section {
       padding: 2rem;
       max-width: 600px;
-      margin: auto;
+      margin: 0;
     }
-    @media (max-width: 768px) {
-        .menu {
+
+   @media (max-width: 768px) {
+        .faixa-teto {
             flex-direction: column;
               }
+   .container {
+    max-width: 900px;
+  width: 100%;
+  padding:1rem;
 
-                .container {
-                    padding: 0.5rem;
-                      }
-                      }
-img, video {
-    max-width: 100%;
-      height: auto;
-      }
+    } }
 
-  
